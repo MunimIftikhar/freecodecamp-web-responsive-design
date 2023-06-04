@@ -67,3 +67,42 @@ body {
   border: none;
   background-color: orange;
 }
+
+.icon{
+  color: orange;
+}
+
+#container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.icon{
+  margin-top: 15px;
+}
+
+.desc{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+}
+
+.desc h2{
+  margin-bottom: 2px;
+}
+
+.desc p{
+  margin: 0px;
+}
+
+#features{
+  width: 60%;
+  margin: auto;
+}
