@@ -1,0 +1,48 @@
+body{
+    color: black;
+}
+
+#header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: e48732;
+  color: white;
+  padding: 3px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+#nav-bar{
+  margin-right: 0px;
+}
+
+#header h1{ 
+  margin-left: 2px;
+}
+
+#nav-bar ul{
+  width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#nav-bar li{
+  margin-left: auto;
+  list-style: none;
+}
+
+#nav-bar a{
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white
+}
+
+#nav-bar a:hover {
+  background: #ddd;
+  color: black;
+}
