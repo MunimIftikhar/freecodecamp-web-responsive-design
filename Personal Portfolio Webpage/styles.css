@@ -9,7 +9,7 @@ body {
     width: 100%;
     top: 0;
     left: 0;
-    background-color: e48732;
+    background-color: #e48732;
     color: white;
     padding: 3px;
     display: flex;
@@ -78,28 +78,28 @@ body {
     flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: e48732;
+   background-color: #e48732;
    color: white
   }
   
   .projects-section{
     display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-      grid-gap: 4rem;
-      width: 90%;
-      max-width: 1280px;
-      margin: 0 auto;
-      margin-bottom: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
   }
   
   .projects-section a{
-    background-color:edc343;
-      display: flex;
+    background-color: #edc343;
+    display: flex;
     flex-direction: column;
-   justify-content: center;
-   align-items: center;
-  text-decoration: none;
-  color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
   }
   
   .projects-section a:hover {
@@ -107,12 +107,12 @@ body {
     color: black;
   }
   
-  .tools{
+  .tools {
     margin-top: 0px;
     font-size: 0.75rem;
   }
   
-  #projects img{
+  #projects img {
     width:100%;
   }
   
@@ -177,6 +177,7 @@ body {
     width: 50px;
     text-align: center;
     text-decoration: none;
+    color: black;
   }
   
   #footer a{
